@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+    <TextView
+        android:fontFamily="sans-serif"
+        android:layout_width="match_parent"
+        android:textSize="30sp"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:text="Message"
+        android:textStyle="bold"
+        android:gravity="center_horizontal">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:textSize="20sp"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:gravity="center_horizontal"
+        android:text="to open the option menu\n long click in button"
+        android:textStyle="bold">
+
+
+    </TextView>
+
+    <Button
+        android:id="@+id/btnSubmit_Admin"
+        android:layout_width="match_parent"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:background="#c1112e"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:text="ok"
+
+        />
+</LinearLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/enetr_trip"
+        android:icon="@drawable/ic_create_foreground"
+        app:showAsAction="always"
+        android:title="enter trip" />
+
+    <item android:id="@+id/logout"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_logout_foreground"
+        android:title="logout"/>
+
+    <item android:id="@+id/all_students"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_sos_foreground"
+        android:title="all students" />
+
+</menu>
